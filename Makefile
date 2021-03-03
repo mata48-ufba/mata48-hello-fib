@@ -2,7 +2,6 @@ a.out:
 	gcc fib.c
 
 clean:
-	rm fib
+	rm -rf a.out
 
-test: a.out
-	python3 grader.py
+all: a.out

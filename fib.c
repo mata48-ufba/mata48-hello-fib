@@ -3,9 +3,9 @@
 
 int fib(int n) {
 
-/* code here */
+  /* code here */
     
- return -1;   
+  return -1;
 
 }
 
