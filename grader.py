@@ -1,8 +1,17 @@
 
 import os
+import sys
+
+print("Compiling...")
 
 os.system("make clean")
-os.system("make")
+make_status = os.system("make")
+
+if make_status:
+  print("Error during compilation. Check your source code.")
+  sys.exit(1)
+
+print("Running tests...")
 
 inputs = [0, 1, 19]
 outputs = [0, 1, 4181]
