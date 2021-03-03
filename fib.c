@@ -4,6 +4,8 @@
 int fib(int n) {
 
 /* code here */
+    
+ return -1;   
 
 }
 
